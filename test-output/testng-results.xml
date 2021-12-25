@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="387" started-at="2021-12-18T16:11:57 EST" finished-at="2021-12-18T16:11:58 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.SmokeTestRunner@69b0fd6f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="387" started-at="2021-12-18T16:11:57 EST" finished-at="2021-12-18T16:11:58 EST">
+      <class name="runners.SmokeTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.SmokeTestRunner@69b0fd6f]" name="setUpClass" is-config="true" duration-ms="227" started-at="2021-12-18T16:11:57 EST" finished-at="2021-12-18T16:11:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27f981c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.SmokeTestRunner@69b0fd6f]" name="runScenario" duration-ms="102" started-at="2021-12-18T16:11:57 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-18T16:11:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Simple search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[perform google search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.SmokeTestRunner@69b0fd6f]" name="runScenario" duration-ms="8" started-at="2021-12-18T16:11:58 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-18T16:11:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Simple search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[perform google search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.SmokeTestRunner@69b0fd6f]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2021-12-18T16:11:58 EST" finished-at="2021-12-18T16:11:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.SmokeTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
